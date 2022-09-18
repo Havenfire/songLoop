@@ -2,17 +2,18 @@ import matplotlib.pyplot as plt
 import numpy as np
 import librosa
 
+DEFAULT_ROUNDING = 2;
+
 # 1. Get the file path to an included audio example
-filename = librosa.example('nutcracker')
+filename = "C:\\Users\\bsliu\\Desktop\\Song Data\\Cordae - RNP (feat. Anderson .Paak) [Official Lyric Video].wav"
 y, sr = librosa.load(filename)
+y, index = librosa.effects.trim(y)
+
 tempo, beat_frames = librosa.beat.beat_track(y=y, sr=sr)
-print('Estimated tempo: {:.2f} beats per minute'.format(tempo))
+
+tempo = round(tempo,DEFAULT_ROUNDING)
 beat_times = librosa.frames_to_time(beat_frames, sr=sr)
+last_beat = beat_times[len(beat_times)-1]
 
+print('Tempo: {:.2f} beats per minute'.format(tempo) + "\nLast beat:{:.2f} seconds".format(last_beat))
 
-
-exampleFile = "F:\\ClassicalMusicDataSet\\maestro-v3.0.0\\2004\\MIDI-Unprocessed_SMF_02_R1_2004_01-05_ORIG_MID--AUDIO_02_R1_2004_05_Track05_wav.wav"
-y2, sr2 = librosa.load(exampleFile)
-tempo2, beat_frames2 = librosa.beat.beat_track(y=y2, sr=sr2)
-print('Estimated tempo: {:.2f} beats per minute'.format(tempo2))
-beat_times2 = librosa.frames_to_time(beat_frames2, sr=sr2)
