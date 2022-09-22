@@ -12,10 +12,10 @@ for file in listdir('C:\\Users\\bsliu\\Desktop\\maestro-v3.0.0\\2004'):
     if fnmatch.fnmatch(file, '*.wav'):
         wavfiles.append(file)
 
-for i in wavfiles.__len__:
+for i in range(0, len(wavfiles)):
     individualData = {}
 
-    filename = "C:\\Users\\bsliu\\Desktop\\maestro-v3.0.0\\2004\\".join(wavfiles[i])
+    filename = "C:\\Users\\bsliu\\Desktop\\maestro-v3.0.0\\2004\\" + (str(wavfiles[i]))
     y, sr = librosa.load(filename)
     y, index = librosa.effects.trim(y)
 
