@@ -25,9 +25,9 @@ def read_audio_section(filename, start_time, stop_time):
 wavfiles = []
 summationFiles = {}
 
+FILE_PATH = 'C:\\Users\\bsliu\\Desktop\\maestro-v3.0.0\\2004'
 
-
-for file in listdir('C:\\Users\\bsliu\\Desktop\\maestro-v3.0.0\\2004'):
+for file in listdir(FILE_PATH):
     if fnmatch.fnmatch(file, '*.wav'):
         wavfiles.append(file)
 
@@ -38,7 +38,7 @@ for i in range(0, len(wavfiles)):
     start_individual_data = {}
     end_individual_data = {}
     
-    filename = "C:\\Users\\bsliu\\Desktop\\maestro-v3.0.0\\2004\\" + (str(wavfiles[i]))
+    filename = FILE_PATH + "\\" + (str(wavfiles[i]))
     file_float_duration = int(librosa.get_duration(filename = filename))
     
     x,sectionSR_start = read_audio_section(filename, 0,5)
@@ -59,8 +59,9 @@ for i in range(0, len(wavfiles)):
     start_tempo, start_beat_frames = librosa.beat.beat_track(y=y0, sr=sr0)
     start_tempo = round(start_tempo,2)
     start_beat_times = librosa.frames_to_time(start_beat_frames, sr=sr0)
-#    start_last_beat = start_beat_times[len(start_beat_times)-1]
+    start_first_beat = start_beat_times[0]
     start_individual_data.update({"bpm" : start_tempo})
+    start_individual_data.update({"firstbeat" : start_first_beat})
 
     individual_data["start"] = start_individual_data
 
@@ -79,8 +80,6 @@ for i in range(0, len(wavfiles)):
 
     os.remove(start_file_name)
     os.remove(end_file_name)
-
-
 
 json_object = json.dumps(summationFiles, indent=4)
 
