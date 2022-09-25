@@ -3,6 +3,7 @@ import numpy as np
 import librosa
 import json
 from os import listdir
+import os
 import fnmatch
 import soundfile as sf
 
@@ -24,13 +25,16 @@ def read_audio_section(filename, start_time, stop_time):
 wavfiles = []
 summationFiles = {}
 
+
+
 for file in listdir('C:\\Users\\bsliu\\Desktop\\maestro-v3.0.0\\2004'):
     if fnmatch.fnmatch(file, '*.wav'):
         wavfiles.append(file)
 
-#for i in range(0, len(wavfiles)):
+for i in range(0, len(wavfiles)):
 
-for i in range(0,1):
+#for i in range(0,1):
+    individual_data = {}
     start_individual_data = {}
     end_individual_data = {}
     
@@ -41,6 +45,9 @@ for i in range(0,1):
     x1,sectionSR_end = read_audio_section(filename, file_float_duration - 5,file_float_duration-1)
 
     SAMPLERATE = sectionSR_start
+    file_name = str(wavfiles[i])
+    key = file_name
+
     start_file_name = "start_" + str(wavfiles[i])
     end_file_name = "end_" + str(wavfiles[i])
     
@@ -55,8 +62,7 @@ for i in range(0,1):
 #    start_last_beat = start_beat_times[len(start_beat_times)-1]
     start_individual_data.update({"bpm" : start_tempo})
 
-    startkey = start_file_name
-    summationFiles[startkey] = start_individual_data
+    individual_data["start"] = start_individual_data
 
     y1, sr1 = librosa.load(end_file_name)
     y1, index1 = librosa.effects.trim(y1)
@@ -67,16 +73,16 @@ for i in range(0,1):
     end_individual_data.update({"bpm" : end_tempo})
     end_individual_data.update({"lastbeat" : end_last_beat})
 
-    endkey = end_file_name
-    summationFiles[endkey] = end_individual_data
+    individual_data["end"] = end_individual_data
 
+    summationFiles[key] = individual_data
 
-    
+    os.remove(start_file_name)
+    os.remove(end_file_name)
+
 
 
 json_object = json.dumps(summationFiles, indent=4)
 
 with open("sample.json", "w") as outfile:
     outfile.write(json_object)
-
-    
