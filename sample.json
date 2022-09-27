@@ -5,8 +5,1186 @@
             "firstbeat": 1.1145578231292517
         },
         "end": {
+            "bpm": 172.27
+        }
+    },
+    "MIDI-Unprocessed_SMF_02_R1_2004_01-05_ORIG_MID--AUDIO_02_R1_2004_06_Track06_wav.wav": {
+        "start": {
+            "bpm": 58.07,
+            "firstbeat": 2.043356009070295
+        },
+        "end": {
+            "bpm": 86.13
+        }
+    },
+    "MIDI-Unprocessed_SMF_02_R1_2004_01-05_ORIG_MID--AUDIO_02_R1_2004_08_Track08_wav.wav": {
+        "start": {
+            "bpm": 95.7,
+            "firstbeat": 1.253877551020408
+        },
+        "end": {
+            "bpm": 152.0
+        }
+    },
+    "MIDI-Unprocessed_SMF_02_R1_2004_01-05_ORIG_MID--AUDIO_02_R1_2004_10_Track10_wav.wav": {
+        "start": {
+            "bpm": 105.47,
+            "firstbeat": 0.5108390022675737
+        },
+        "end": {
+            "bpm": 120.19
+        }
+    },
+    "MIDI-Unprocessed_SMF_05_R1_2004_01_ORIG_MID--AUDIO_05_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 84.72,
+            "firstbeat": 0.37151927437641724
+        },
+        "end": {
+            "bpm": 41.68
+        }
+    },
+    "MIDI-Unprocessed_SMF_05_R1_2004_01_ORIG_MID--AUDIO_05_R1_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 68.91,
+            "firstbeat": 1.0332879818594105
+        },
+        "end": {
+            "bpm": 120.19
+        }
+    },
+    "MIDI-Unprocessed_SMF_05_R1_2004_02-03_ORIG_MID--AUDIO_05_R1_2004_06_Track06_wav.wav": {
+        "start": {
+            "bpm": 126.05,
+            "firstbeat": 1.0100680272108844
+        },
+        "end": {
+            "bpm": 90.67
+        }
+    },
+    "MIDI-Unprocessed_SMF_07_R1_2004_01_ORIG_MID--AUDIO_07_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 67.12,
+            "firstbeat": 0.626938775510204
+        },
+        "end": {
+            "bpm": 112.35
+        }
+    },
+    "MIDI-Unprocessed_SMF_07_R1_2004_01_ORIG_MID--AUDIO_07_R1_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 63.02,
+            "firstbeat": 1.0565079365079366
+        },
+        "end": {
+            "bpm": 80.75
+        }
+    },
+    "MIDI-Unprocessed_SMF_07_R1_2004_01_ORIG_MID--AUDIO_07_R1_2004_06_Track06_wav.wav": {
+        "start": {
+            "bpm": 112.35,
+            "firstbeat": 0.905578231292517
+        },
+        "end": {
+            "bpm": 55.57
+        }
+    },
+    "MIDI-Unprocessed_SMF_07_R1_2004_01_ORIG_MID--AUDIO_07_R1_2004_12_Track12_wav.wav": {
+        "start": {
+            "bpm": 184.57,
+            "firstbeat": 0.034829931972789115
+        },
+        "end": {
+            "bpm": 132.51
+        }
+    },
+    "MIDI-Unprocessed_SMF_12_01_2004_01-05_ORIG_MID--AUDIO_12_R1_2004_03_Track03_wav--1.wav": {
+        "start": {
+            "bpm": 107.67,
+            "firstbeat": 0.5340589569160997
+        },
+        "end": {
+            "bpm": 156.61
+        }
+    },
+    "MIDI-Unprocessed_SMF_12_01_2004_01-05_ORIG_MID--AUDIO_12_R1_2004_07_Track07_wav.wav": {
+        "start": {
+            "bpm": 224.69,
+            "firstbeat": 0.7082086167800453
+        },
+        "end": {
+            "bpm": 120.19
+        }
+    },
+    "MIDI-Unprocessed_SMF_12_01_2004_01-05_ORIG_MID--AUDIO_12_R1_2004_08_Track08_wav.wav": {
+        "start": {
+            "bpm": 178.21,
+            "firstbeat": 0.034829931972789115
+        },
+        "end": {
+            "bpm": 73.83
+        }
+    },
+    "MIDI-Unprocessed_SMF_12_01_2004_01-05_ORIG_MID--AUDIO_12_R1_2004_09_Track09_wav.wav": {
+        "start": {
+            "bpm": 120.19,
+            "firstbeat": 3.7268027210884354
+        },
+        "end": {
+            "bpm": 143.55
+        }
+    },
+    "MIDI-Unprocessed_SMF_12_01_2004_01-05_ORIG_MID--AUDIO_12_R1_2004_10_Track10_wav.wav": {
+        "start": {
+            "bpm": 55.57,
+            "firstbeat": 1.0100680272108844
+        },
+        "end": {
+            "bpm": 117.45
+        }
+    },
+    "MIDI-Unprocessed_SMF_13_01_2004_01-05_ORIG_MID--AUDIO_13_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 93.96,
+            "firstbeat": 0.3947392290249433
+        },
+        "end": {
+            "bpm": 117.45
+        }
+    },
+    "MIDI-Unprocessed_SMF_13_01_2004_01-05_ORIG_MID--AUDIO_13_R1_2004_05_Track05_wav.wav": {
+        "start": {
+            "bpm": 120.19,
+            "firstbeat": 0.3250793650793651
+        },
+        "end": {
+            "bpm": 39.75
+        }
+    },
+    "MIDI-Unprocessed_SMF_13_01_2004_01-05_ORIG_MID--AUDIO_13_R1_2004_08_Track08_wav.wav": {
+        "start": {
+            "bpm": 120.19,
+            "firstbeat": 0.10448979591836735
+        },
+        "end": {
+            "bpm": 83.35
+        }
+    },
+    "MIDI-Unprocessed_SMF_13_01_2004_01-05_ORIG_MID--AUDIO_13_R1_2004_09_Track09_wav.wav": {
+        "start": {
+            "bpm": 224.69,
+            "firstbeat": 1.7414965986394557
+        },
+        "end": {
+            "bpm": 129.2
+        }
+    },
+    "MIDI-Unprocessed_SMF_13_01_2004_01-05_ORIG_MID--AUDIO_13_R1_2004_10_Track10_wav.wav": {
+        "start": {
+            "bpm": 101.33,
+            "firstbeat": 0.6849886621315193
+        },
+        "end": {
+            "bpm": 136.0
+        }
+    },
+    "MIDI-Unprocessed_SMF_13_01_2004_01-05_ORIG_MID--AUDIO_13_R1_2004_12_Track12_wav.wav": {
+        "start": {
+            "bpm": 117.45,
+            "firstbeat": 0.7430385487528345
+        },
+        "end": {
+            "bpm": 97.51
+        }
+    },
+    "MIDI-Unprocessed_SMF_16_R1_2004_01-08_ORIG_MID--AUDIO_16_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 42.36,
+            "firstbeat": 0.9984580498866213
+        },
+        "end": {
+            "bpm": 35.4
+        }
+    },
+    "MIDI-Unprocessed_SMF_16_R1_2004_01-08_ORIG_MID--AUDIO_16_R1_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 74.9,
+            "firstbeat": 0.12770975056689343
+        },
+        "end": {
+            "bpm": 114.84
+        }
+    },
+    "MIDI-Unprocessed_SMF_16_R1_2004_01-08_ORIG_MID--AUDIO_16_R1_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 139.67,
+            "firstbeat": 1.0448979591836736
+        },
+        "end": {
+            "bpm": 184.57
+        }
+    },
+    "MIDI-Unprocessed_SMF_16_R1_2004_01-08_ORIG_MID--AUDIO_16_R1_2004_05_Track05_wav.wav": {
+        "start": {
+            "bpm": 90.67,
+            "firstbeat": 0.40634920634920635
+        },
+        "end": {
+            "bpm": 73.83
+        }
+    },
+    "MIDI-Unprocessed_SMF_16_R1_2004_01-08_ORIG_MID--AUDIO_16_R1_2004_06_Track06_wav.wav": {
+        "start": {
+            "bpm": 93.96,
+            "firstbeat": 0.9520181405895691
+        },
+        "end": {
+            "bpm": 29.53
+        }
+    },
+    "MIDI-Unprocessed_SMF_16_R1_2004_01-08_ORIG_MID--AUDIO_16_R1_2004_08_Track08_wav.wav": {
+        "start": {
+            "bpm": 117.45,
+            "firstbeat": 0.26702947845804986
+        },
+        "end": {
+            "bpm": 198.77
+        }
+    },
+    "MIDI-Unprocessed_SMF_16_R1_2004_01-08_ORIG_MID--AUDIO_16_R1_2004_13_Track13_wav.wav": {
+        "start": {
+            "bpm": 143.55,
+            "firstbeat": 0.313469387755102
+        },
+        "end": {
+            "bpm": 105.47
+        }
+    },
+    "MIDI-Unprocessed_SMF_17_R1_2004_01-02_ORIG_MID--AUDIO_20_R2_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 66.26,
+            "firstbeat": 0.12770975056689343
+        },
+        "end": {
+            "bpm": 97.51
+        }
+    },
+    "MIDI-Unprocessed_SMF_17_R1_2004_01-02_ORIG_MID--AUDIO_20_R2_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 112.35,
+            "firstbeat": 0.4527891156462585
+        },
+        "end": {
+            "bpm": 166.71
+        }
+    },
+    "MIDI-Unprocessed_SMF_17_R1_2004_01-02_ORIG_MID--AUDIO_20_R2_2004_06_Track06_wav.wav": {
+        "start": {
+            "bpm": 123.05,
+            "firstbeat": 2.182675736961451
+        },
+        "end": {
+            "bpm": 120.19
+        }
+    },
+    "MIDI-Unprocessed_SMF_17_R1_2004_01-03_ORIG_MID--AUDIO_17_R1_2004_02_Track02_wav--1.wav": {
+        "start": {
+            "bpm": 70.79,
+            "firstbeat": 0.17414965986394557
+        },
+        "end": {
+            "bpm": 126.05
+        }
+    },
+    "MIDI-Unprocessed_SMF_17_R1_2004_01-03_ORIG_MID--AUDIO_17_R1_2004_02_Track02_wav--2.wav": {
+        "start": {
+            "bpm": 83.35,
+            "firstbeat": 0.2786394557823129
+        },
+        "end": {
+            "bpm": 44.94
+        }
+    },
+    "MIDI-Unprocessed_SMF_17_R1_2004_01-03_ORIG_MID--AUDIO_17_R1_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 66.26,
+            "firstbeat": 0.08126984126984127
+        },
+        "end": {
+            "bpm": 74.9
+        }
+    },
+    "MIDI-Unprocessed_SMF_17_R1_2004_01-03_ORIG_MID--AUDIO_17_R1_2004_06_Track06_wav.wav": {
+        "start": {
+            "bpm": 84.72,
+            "firstbeat": 0.301859410430839
+        },
+        "end": {
+            "bpm": 14.08
+        }
+    },
+    "MIDI-Unprocessed_SMF_17_R1_2004_03-06_ORIG_MID--AUDIO_20_R2_2004_08_Track08_wav.wav": {
+        "start": {
+            "bpm": 112.35,
+            "firstbeat": 0.5108390022675737
+        },
+        "end": {
+            "bpm": 178.21
+        }
+    },
+    "MIDI-Unprocessed_SMF_17_R1_2004_03-06_ORIG_MID--AUDIO_20_R2_2004_12_Track12_wav--1.wav": {
+        "start": {
+            "bpm": 114.84,
+            "firstbeat": 0.13931972789115646
+        },
+        "end": {
+            "bpm": 152.0
+        }
+    },
+    "MIDI-Unprocessed_SMF_17_R1_2004_03-06_ORIG_MID--AUDIO_20_R2_2004_12_Track12_wav--2.wav": {
+        "start": {
+            "bpm": 97.51,
+            "firstbeat": 0.3947392290249433
+        },
+        "end": {
+            "bpm": 143.55
+        }
+    },
+    "MIDI-Unprocessed_SMF_17_R1_2004_04_ORIG_MID--AUDIO_17_R1_2004_09_Track09_wav.wav": {
+        "start": {
+            "bpm": 112.35,
+            "firstbeat": 0.058049886621315196
+        },
+        "end": {
+            "bpm": 79.51
+        }
+    },
+    "MIDI-Unprocessed_SMF_17_R1_2004_04_ORIG_MID--AUDIO_17_R1_2004_11_Track11_wav.wav": {
+        "start": {
+            "bpm": 105.47,
+            "firstbeat": 3.297233560090703
+        },
+        "end": {
+            "bpm": 139.67
+        }
+    },
+    "MIDI-Unprocessed_SMF_22_R1_2004_01-04_ORIG_MID--AUDIO_22_R1_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 147.66,
+            "firstbeat": 0.6501587301587302
+        },
+        "end": {
+            "bpm": 90.67
+        }
+    },
+    "MIDI-Unprocessed_SMF_22_R1_2004_01-04_ORIG_MID--AUDIO_22_R1_2004_05_Track05_wav.wav": {
+        "start": {
+            "bpm": 156.61,
+            "firstbeat": 0.22058956916099773
+        },
+        "end": {
+            "bpm": 198.77
+        }
+    },
+    "MIDI-Unprocessed_SMF_22_R1_2004_01-04_ORIG_MID--AUDIO_22_R1_2004_10_Track10_wav.wav": {
+        "start": {
+            "bpm": 117.45,
+            "firstbeat": 0.5688888888888889
+        },
+        "end": {
+            "bpm": 65.42
+        }
+    },
+    "MIDI-Unprocessed_SMF_22_R1_2004_01-04_ORIG_MID--AUDIO_22_R1_2004_17_Track17_wav.wav": {
+        "start": {
+            "bpm": 34.0,
+            "firstbeat": 1.0565079365079366
+        },
+        "end": {
+            "bpm": 120.19
+        }
+    },
+    "MIDI-Unprocessed_XP_01_R1_2004_01-02_ORIG_MID--AUDIO_01_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 77.13,
+            "firstbeat": 0.26702947845804986
+        },
+        "end": {
+            "bpm": 120.19
+        }
+    },
+    "MIDI-Unprocessed_XP_01_R1_2004_01-02_ORIG_MID--AUDIO_01_R1_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 215.33,
+            "firstbeat": 0.6617687074829932
+        },
+        "end": {
+            "bpm": 246.09
+        }
+    },
+    "MIDI-Unprocessed_XP_01_R1_2004_03_ORIG_MID--AUDIO_01_R1_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 184.57,
+            "firstbeat": 0.7778684807256235
+        },
+        "end": {
+            "bpm": 95.7
+        }
+    },
+    "MIDI-Unprocessed_XP_01_R1_2004_04-05_ORIG_MID--AUDIO_01_R1_2004_05_Track05_wav.wav": {
+        "start": {
+            "bpm": 123.05,
+            "firstbeat": 0.592108843537415
+        },
+        "end": {
+            "bpm": 0
+        }
+    },
+    "MIDI-Unprocessed_XP_01_R1_2004_04-05_ORIG_MID--AUDIO_01_R1_2004_06_Track06_wav.wav": {
+        "start": {
+            "bpm": 272.0,
+            "firstbeat": 0.8243083900226758
+        },
+        "end": {
+            "bpm": 152.0
+        }
+    },
+    "MIDI-Unprocessed_XP_03_R1_2004_01-02_ORIG_MID--AUDIO_03_R1_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 120.19,
+            "firstbeat": 0.592108843537415
+        },
+        "end": {
+            "bpm": 79.51
+        }
+    },
+    "MIDI-Unprocessed_XP_03_R1_2004_01-02_ORIG_MID--AUDIO_03_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 101.33,
+            "firstbeat": 0.5572789115646258
+        },
+        "end": {
+            "bpm": 112.35
+        }
+    },
+    "MIDI-Unprocessed_XP_04_R1_2004_01-02_ORIG_MID--AUDIO_04_R1_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 109.96,
+            "firstbeat": 0.5224489795918368
+        },
+        "end": {
+            "bpm": 120.19
+        }
+    },
+    "MIDI-Unprocessed_XP_04_R1_2004_01-02_ORIG_MID--AUDIO_04_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 126.05,
+            "firstbeat": 0.5456689342403628
+        },
+        "end": {
+            "bpm": 109.96
+        }
+    },
+    "MIDI-Unprocessed_XP_04_R1_2004_03-05_ORIG_MID--AUDIO_04_R1_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 152.0,
+            "firstbeat": 3.1695238095238096
+        },
+        "end": {
+            "bpm": 123.05
+        }
+    },
+    "MIDI-Unprocessed_XP_04_R1_2004_03-05_ORIG_MID--AUDIO_04_R1_2004_05_Track05_wav.wav": {
+        "start": {
+            "bpm": 123.05,
+            "firstbeat": 0.2786394557823129
+        },
+        "end": {
+            "bpm": 129.2
+        }
+    },
+    "MIDI-Unprocessed_XP_04_R1_2004_03-05_ORIG_MID--AUDIO_04_R1_2004_06_Track06_wav.wav": {
+        "start": {
+            "bpm": 69.84,
+            "firstbeat": 0.17414965986394557
+        },
+        "end": {
+            "bpm": 51.17
+        }
+    },
+    "MIDI-Unprocessed_XP_04_R1_2004_06_ORIG_MID--AUDIO_04_R1_2004_08_Track08_wav.wav": {
+        "start": {
+            "bpm": 156.61,
+            "firstbeat": 0.603718820861678
+        },
+        "end": {
+            "bpm": 117.45
+        }
+    },
+    "MIDI-Unprocessed_XP_04_R2_2004_01_ORIG_MID--AUDIO_04_R2_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 136.0,
+            "firstbeat": 0.2786394557823129
+        },
+        "end": {
+            "bpm": 166.71
+        }
+    },
+    "MIDI-Unprocessed_XP_04_R2_2004_01_ORIG_MID--AUDIO_04_R2_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 166.71,
+            "firstbeat": 1.1261678004535147
+        },
+        "end": {
+            "bpm": 123.05
+        }
+    },
+    "MIDI-Unprocessed_XP_06_R1_2004_01_ORIG_MID--AUDIO_06_R1_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 139.67,
+            "firstbeat": 0.7082086167800453
+        },
+        "end": {
+            "bpm": 16.62
+        }
+    },
+    "MIDI-Unprocessed_XP_06_R1_2004_02-03_ORIG_MID--AUDIO_06_R1_2004_05_Track05_wav.wav": {
+        "start": {
+            "bpm": 41.68,
+            "firstbeat": 1.0216780045351475
+        },
+        "end": {
+            "bpm": 44.55
+        }
+    },
+    "MIDI-Unprocessed_XP_06_R2_2004_01_ORIG_MID--AUDIO_06_R2_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 78.3,
+            "firstbeat": 0.08126984126984127
+        },
+        "end": {
+            "bpm": 21.71
+        }
+    },
+    "MIDI-Unprocessed_XP_06_R2_2004_01_ORIG_MID--AUDIO_06_R2_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 95.7,
+            "firstbeat": 0.44117913832199546
+        },
+        "end": {
+            "bpm": 19.28
+        }
+    },
+    "MIDI-Unprocessed_XP_06_R2_2004_01_ORIG_MID--AUDIO_06_R2_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 198.77,
+            "firstbeat": 1.3931972789115645
+        },
+        "end": {
+            "bpm": 52.73
+        }
+    },
+    "MIDI-Unprocessed_XP_08_R1_2004_01-02_ORIG_MID--AUDIO_08_R1_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 101.33,
+            "firstbeat": 0.44117913832199546
+        },
+        "end": {
+            "bpm": 132.51
+        }
+    },
+    "MIDI-Unprocessed_XP_08_R1_2004_01-02_ORIG_MID--AUDIO_08_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 147.66,
+            "firstbeat": 0.6965986394557823
+        },
+        "end": {
+            "bpm": 132.51
+        }
+    },
+    "MIDI-Unprocessed_XP_08_R1_2004_03_ORIG_MID--AUDIO_08_R1_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 90.67,
+            "firstbeat": 0.13931972789115646
+        },
+        "end": {
+            "bpm": 161.5
+        }
+    },
+    "MIDI-Unprocessed_XP_08_R1_2004_04-06_ORIG_MID--AUDIO_08_R1_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 93.96,
+            "firstbeat": 0.3831292517006803
+        },
+        "end": {
+            "bpm": 70.79
+        }
+    },
+    "MIDI-Unprocessed_XP_08_R1_2004_04-06_ORIG_MID--AUDIO_08_R1_2004_05_Track05_wav--1.wav": {
+        "start": {
+            "bpm": 152.0,
+            "firstbeat": 0.626938775510204
+        },
+        "end": {
+            "bpm": 114.84
+        }
+    },
+    "MIDI-Unprocessed_XP_08_R1_2004_04-06_ORIG_MID--AUDIO_08_R1_2004_05_Track05_wav--2.wav": {
+        "start": {
             "bpm": 132.51,
-            "lastbeat": 0.2089795918367347
+            "firstbeat": 3.541043083900227
+        },
+        "end": {
+            "bpm": 67.12
+        }
+    },
+    "MIDI-Unprocessed_XP_09_R1_2004_01-02_ORIG_MID--AUDIO_09_R1_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 272.0,
+            "firstbeat": 0.7662585034013606
+        },
+        "end": {
+            "bpm": 39.45
+        }
+    },
+    "MIDI-Unprocessed_XP_09_R1_2004_01-02_ORIG_MID--AUDIO_09_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 24.38,
+            "firstbeat": 1.0216780045351475
+        },
+        "end": {
+            "bpm": 52.2
+        }
+    },
+    "MIDI-Unprocessed_XP_09_R1_2004_01-02_ORIG_MID--AUDIO_09_R1_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 54.4,
+            "firstbeat": 1.0332879818594105
+        },
+        "end": {
+            "bpm": 105.47
+        }
+    },
+    "MIDI-Unprocessed_XP_09_R1_2004_05_ORIG_MID--AUDIO_09_R1_2004_06_Track06_wav.wav": {
+        "start": {
+            "bpm": 120.19,
+            "firstbeat": 0.5572789115646258
+        },
+        "end": {
+            "bpm": 54.4
+        }
+    },
+    "MIDI-Unprocessed_XP_09_R1_2004_05_ORIG_MID--AUDIO_09_R1_2004_07_Track07_wav.wav": {
+        "start": {
+            "bpm": 143.55,
+            "firstbeat": 0.626938775510204
+        },
+        "end": {
+            "bpm": 78.3
+        }
+    },
+    "MIDI-Unprocessed_XP_09_R1_2004_05_ORIG_MID--AUDIO_09_R1_2004_08_Track08_wav.wav": {
+        "start": {
+            "bpm": 35.16,
+            "firstbeat": 1.1029478458049886
+        },
+        "end": {
+            "bpm": 49.69
+        }
+    },
+    "MIDI-Unprocessed_XP_10_R1_2004_01-02_ORIG_MID--AUDIO_10_R1_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 67.12,
+            "firstbeat": 0.034829931972789115
+        },
+        "end": {
+            "bpm": 123.05
+        }
+    },
+    "MIDI-Unprocessed_XP_10_R1_2004_01-02_ORIG_MID--AUDIO_10_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 120.19,
+            "firstbeat": 0.603718820861678
+        },
+        "end": {
+            "bpm": 31.32
+        }
+    },
+    "MIDI-Unprocessed_XP_10_R1_2004_03-04_ORIG_MID--AUDIO_10_R1_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 77.13,
+            "firstbeat": 0.301859410430839
+        },
+        "end": {
+            "bpm": 77.13
+        }
+    },
+    "MIDI-Unprocessed_XP_10_R1_2004_05_ORIG_MID--AUDIO_10_R1_2004_05_Track05_wav.wav": {
+        "start": {
+            "bpm": 136.0,
+            "firstbeat": 0.6385487528344671
+        },
+        "end": {
+            "bpm": 112.35
+        }
+    },
+    "MIDI-Unprocessed_XP_11_R1_2004_01-02_ORIG_MID--AUDIO_11_R1_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 132.51,
+            "firstbeat": 0.5572789115646258
+        },
+        "end": {
+            "bpm": 132.51
+        }
+    },
+    "MIDI-Unprocessed_XP_11_R1_2004_01-02_ORIG_MID--AUDIO_11_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 87.59,
+            "firstbeat": 0.06965986394557823
+        },
+        "end": {
+            "bpm": 51.68
+        }
+    },
+    "MIDI-Unprocessed_XP_11_R1_2004_03-04_ORIG_MID--AUDIO_11_R1_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 166.71,
+            "firstbeat": 0.592108843537415
+        },
+        "end": {
+            "bpm": 114.84
+        }
+    },
+    "MIDI-Unprocessed_XP_11_R1_2004_03-04_ORIG_MID--AUDIO_11_R1_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 27.78,
+            "firstbeat": 1.0797278911564625
+        },
+        "end": {
+            "bpm": 40.37
+        }
+    },
+    "MIDI-Unprocessed_XP_14_R1_2004_01-03_ORIG_MID--AUDIO_14_R1_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 107.67,
+            "firstbeat": 1.0681179138321995
+        },
+        "end": {
+            "bpm": 109.96
+        }
+    },
+    "MIDI-Unprocessed_XP_14_R1_2004_01-03_ORIG_MID--AUDIO_14_R1_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 206.72,
+            "firstbeat": 0.8010884353741496
+        },
+        "end": {
+            "bpm": 61.52
+        }
+    },
+    "MIDI-Unprocessed_XP_14_R1_2004_04_ORIG_MID--AUDIO_14_R1_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 136.0,
+            "firstbeat": 1.195827664399093
+        },
+        "end": {
+            "bpm": 156.61
+        }
+    },
+    "MIDI-Unprocessed_XP_14_R1_2004_04_ORIG_MID--AUDIO_14_R1_2004_05_Track05_wav.wav": {
+        "start": {
+            "bpm": 112.35,
+            "firstbeat": 0.5340589569160997
+        },
+        "end": {
+            "bpm": 120.19
+        }
+    },
+    "MIDI-Unprocessed_XP_14_R1_2004_04_ORIG_MID--AUDIO_14_R1_2004_06_Track06_wav.wav": {
+        "start": {
+            "bpm": 172.27,
+            "firstbeat": 0.12770975056689343
+        },
+        "end": {
+            "bpm": 112.35
+        }
+    },
+    "MIDI-Unprocessed_XP_14_R2_2004_01_ORIG_MID--AUDIO_14_R2_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 78.3,
+            "firstbeat": 3.7964625850340137
+        },
+        "end": {
+            "bpm": 139.67
+        }
+    },
+    "MIDI-Unprocessed_XP_14_R2_2004_01_ORIG_MID--AUDIO_14_R2_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 17.94,
+            "firstbeat": 1.0332879818594105
+        },
+        "end": {
+            "bpm": 105.47
+        }
+    },
+    "MIDI-Unprocessed_XP_14_R2_2004_01_ORIG_MID--AUDIO_14_R2_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 136.0,
+            "firstbeat": 0.5804988662131519
+        },
+        "end": {
+            "bpm": 48.3
+        }
+    },
+    "MIDI-Unprocessed_XP_14_R2_2004_01_ORIG_MID--AUDIO_14_R2_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 68.91,
+            "firstbeat": 0.13931972789115646
+        },
+        "end": {
+            "bpm": 107.67
+        }
+    },
+    "MIDI-Unprocessed_XP_15_R1_2004_01-02_ORIG_MID--AUDIO_15_R1_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 117.45,
+            "firstbeat": 2.5193650793650795
+        },
+        "end": {
+            "bpm": 93.96
+        }
+    },
+    "MIDI-Unprocessed_XP_15_R1_2004_01-02_ORIG_MID--AUDIO_15_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 126.05,
+            "firstbeat": 0.615328798185941
+        },
+        "end": {
+            "bpm": 99.38
+        }
+    },
+    "MIDI-Unprocessed_XP_15_R1_2004_03_ORIG_MID--AUDIO_15_R1_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 123.05,
+            "firstbeat": 0.5340589569160997
+        },
+        "end": {
+            "bpm": 83.35
+        }
+    },
+    "MIDI-Unprocessed_XP_15_R1_2004_04_ORIG_MID--AUDIO_15_R1_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 152.0,
+            "firstbeat": 0.6501587301587302
+        },
+        "end": {
+            "bpm": 67.12
+        }
+    },
+    "MIDI-Unprocessed_XP_15_R2_2004_01_ORIG_MID--AUDIO_15_R2_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 105.47,
+            "firstbeat": 0.5108390022675737
+        },
+        "end": {
+            "bpm": 82.03
+        }
+    },
+    "MIDI-Unprocessed_XP_15_R2_2004_01_ORIG_MID--AUDIO_15_R2_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 117.45,
+            "firstbeat": 1.6370068027210884
+        },
+        "end": {
+            "bpm": 92.29
+        }
+    },
+    "MIDI-Unprocessed_XP_15_R2_2004_01_ORIG_MID--AUDIO_15_R2_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 103.36,
+            "firstbeat": 0.6733786848072563
+        },
+        "end": {
+            "bpm": 123.05
+        }
+    },
+    "MIDI-Unprocessed_XP_15_R2_2004_01_ORIG_MID--AUDIO_15_R2_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 112.35,
+            "firstbeat": 0.6849886621315193
+        },
+        "end": {
+            "bpm": 48.75
+        }
+    },
+    "MIDI-Unprocessed_XP_16_R2_2004_01_ORIG_MID--AUDIO_16_R2_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 87.59,
+            "firstbeat": 0.3831292517006803
+        },
+        "end": {
+            "bpm": 132.51
+        }
+    },
+    "MIDI-Unprocessed_XP_16_R2_2004_01_ORIG_MID--AUDIO_16_R2_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 69.84,
+            "firstbeat": 0.3831292517006803
+        },
+        "end": {
+            "bpm": 129.2
+        }
+    },
+    "MIDI-Unprocessed_XP_16_R2_2004_01_ORIG_MID--AUDIO_16_R2_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 120.19,
+            "firstbeat": 0.33668934240362813
+        },
+        "end": {
+            "bpm": 107.67
+        }
+    },
+    "MIDI-Unprocessed_XP_16_R2_2004_01_ORIG_MID--AUDIO_16_R2_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 272.0,
+            "firstbeat": 0.8707482993197279
+        },
+        "end": {
+            "bpm": 46.98
+        }
+    },
+    "MIDI-Unprocessed_XP_17_R2_2004_01_ORIG_MID--AUDIO_17_R2_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 147.66,
+            "firstbeat": 0.7082086167800453
+        },
+        "end": {
+            "bpm": 129.2
+        }
+    },
+    "MIDI-Unprocessed_XP_17_R2_2004_01_ORIG_MID--AUDIO_17_R2_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 178.21,
+            "firstbeat": 0.7314285714285714
+        },
+        "end": {
+            "bpm": 152.0
+        }
+    },
+    "MIDI-Unprocessed_XP_17_R2_2004_01_ORIG_MID--AUDIO_17_R2_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 172.27,
+            "firstbeat": 0.6965986394557823
+        },
+        "end": {
+            "bpm": 97.51
+        }
+    },
+    "MIDI-Unprocessed_XP_17_R2_2004_01_ORIG_MID--AUDIO_17_R2_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 99.38,
+            "firstbeat": 0.4992290249433107
+        },
+        "end": {
+            "bpm": 89.1
+        }
+    },
+    "MIDI-Unprocessed_XP_18_R1_2004_01-02_ORIG_MID--AUDIO_18_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 105.47,
+            "firstbeat": 0.4527891156462585
+        },
+        "end": {
+            "bpm": 136.0
+        }
+    },
+    "MIDI-Unprocessed_XP_18_R1_2004_01-02_ORIG_MID--AUDIO_18_R1_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 46.98,
+            "firstbeat": 2.2639455782312927
+        },
+        "end": {
+            "bpm": 60.09
+        }
+    },
+    "MIDI-Unprocessed_XP_18_R1_2004_01-02_ORIG_MID--AUDIO_18_R1_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 74.9,
+            "firstbeat": 1.474467120181406
+        },
+        "end": {
+            "bpm": 92.29
+        }
+    },
+    "MIDI-Unprocessed_XP_18_R1_2004_01-02_ORIG_MID--AUDIO_18_R1_2004_05_Track05_wav.wav": {
+        "start": {
+            "bpm": 129.2,
+            "firstbeat": 0.615328798185941
+        },
+        "end": {
+            "bpm": 120.19
+        }
+    },
+    "MIDI-Unprocessed_XP_18_R1_2004_04_ORIG_MID--AUDIO_18_R1_2004_07_Track07_wav.wav": {
+        "start": {
+            "bpm": 129.2,
+            "firstbeat": 0.592108843537415
+        },
+        "end": {
+            "bpm": 56.79
+        }
+    },
+    "MIDI-Unprocessed_XP_19_R1_2004_01-02_ORIG_MID--AUDIO_19_R1_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 139.67,
+            "firstbeat": 1.0100680272108844
+        },
+        "end": {
+            "bpm": 101.33
+        }
+    },
+    "MIDI-Unprocessed_XP_19_R1_2004_01-02_ORIG_MID--AUDIO_19_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 42.36,
+            "firstbeat": 2.2175056689342405
+        },
+        "end": {
+            "bpm": 139.67
+        }
+    },
+    "MIDI-Unprocessed_XP_19_R1_2004_01-02_ORIG_MID--AUDIO_19_R1_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 152.0,
+            "firstbeat": 0.7430385487528345
+        },
+        "end": {
+            "bpm": 136.0
+        }
+    },
+    "MIDI-Unprocessed_XP_19_R2_2004_01_ORIG_MID--AUDIO_19_R2_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 86.13,
+            "firstbeat": 0.3831292517006803
+        },
+        "end": {
+            "bpm": 166.71
+        }
+    },
+    "MIDI-Unprocessed_XP_19_R2_2004_01_ORIG_MID--AUDIO_19_R2_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 58.07,
+            "firstbeat": 0.058049886621315196
+        },
+        "end": {
+            "bpm": 51.68
+        }
+    },
+    "MIDI-Unprocessed_XP_19_R2_2004_01_ORIG_MID--AUDIO_19_R2_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 67.12,
+            "firstbeat": 1.811156462585034
+        },
+        "end": {
+            "bpm": 56.79
+        }
+    },
+    "MIDI-Unprocessed_XP_20_R2_2004_01_ORIG_MID--AUDIO_20_R1_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 19.5,
+            "firstbeat": 1.0565079365079366
+        },
+        "end": {
+            "bpm": 117.45
+        }
+    },
+    "MIDI-Unprocessed_XP_20_R2_2004_01_ORIG_MID--AUDIO_20_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 184.57,
+            "firstbeat": 1.0681179138321995
+        },
+        "end": {
+            "bpm": 112.35
+        }
+    },
+    "MIDI-Unprocessed_XP_20_R2_2004_01_ORIG_MID--AUDIO_20_R1_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 156.61,
+            "firstbeat": 0.626938775510204
+        },
+        "end": {
+            "bpm": 58.07
+        }
+    },
+    "MIDI-Unprocessed_XP_21_R1_2004_01_ORIG_MID--AUDIO_21_R1_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 80.75,
+            "firstbeat": 0.313469387755102
+        },
+        "end": {
+            "bpm": 215.33
+        }
+    },
+    "MIDI-Unprocessed_XP_21_R1_2004_02_ORIG_MID--AUDIO_21_R1_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 92.29,
+            "firstbeat": 0.47600907029478456
+        },
+        "end": {
+            "bpm": 112.35
+        }
+    },
+    "MIDI-Unprocessed_XP_21_R1_2004_02_ORIG_MID--AUDIO_21_R1_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 84.72,
+            "firstbeat": 0.4179591836734694
+        },
+        "end": {
+            "bpm": 191.41
+        }
+    },
+    "MIDI-Unprocessed_XP_21_R1_2004_03_ORIG_MID--AUDIO_21_R1_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 103.36,
+            "firstbeat": 0.5224489795918368
+        },
+        "end": {
+            "bpm": 123.05
+        }
+    },
+    "MIDI-Unprocessed_XP_22_R2_2004_01_ORIG_MID--AUDIO_22_R2_2004_01_Track01_wav.wav": {
+        "start": {
+            "bpm": 86.13,
+            "firstbeat": 0.33668934240362813
+        },
+        "end": {
+            "bpm": 24.97
+        }
+    },
+    "MIDI-Unprocessed_XP_22_R2_2004_01_ORIG_MID--AUDIO_22_R2_2004_02_Track02_wav.wav": {
+        "start": {
+            "bpm": 90.67,
+            "firstbeat": 0.3599092970521542
+        },
+        "end": {
+            "bpm": 132.51
+        }
+    },
+    "MIDI-Unprocessed_XP_22_R2_2004_01_ORIG_MID--AUDIO_22_R2_2004_03_Track03_wav.wav": {
+        "start": {
+            "bpm": 126.05,
+            "firstbeat": 1.1029478458049886
+        },
+        "end": {
+            "bpm": 84.72
+        }
+    },
+    "MIDI-Unprocessed_XP_22_R2_2004_01_ORIG_MID--AUDIO_22_R2_2004_04_Track04_wav.wav": {
+        "start": {
+            "bpm": 272.0,
+            "firstbeat": 1.0332879818594105
+        },
+        "end": {
+            "bpm": 71.78
         }
     }
 }

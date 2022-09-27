@@ -8,6 +8,16 @@ import fnmatch
 import soundfile as sf
 
 
+def vol_start_type(avg_s_vol_list):
+
+
+    return 1
+
+def vol_end_type(avg_e_vol_list):
+
+
+    return 2
+
 def read_audio_section(filename, start_time, stop_time):
     track = sf.SoundFile(filename)
 
@@ -18,70 +28,77 @@ def read_audio_section(filename, start_time, stop_time):
     sr = track.samplerate
     start_frame = sr * start_time
     frames_to_read = sr * (stop_time - start_time)
-    track.seek(int(start_frame))
-    audio_section = track.read(int(frames_to_read))
+    track.seek(start_frame)
+    audio_section = track.read(frames_to_read)
 
     return audio_section, sr
 
-wavfiles = []
-summationFiles = {}
 
-FILE_PATH = 'C:\\Users\\bsliu\\Desktop\\maestro-v3.0.0\\2004'
-
-for file in listdir(FILE_PATH):
-    if fnmatch.fnmatch(file, '*.wav'):
-        wavfiles.append(file)
-
-#for i in range(0, len(wavfiles)):
-for i in range (0,1):
-    individual_data = {}
-    start_individual_data = {}
-    end_individual_data = {}
+def run_song_processing(file_path):
     
-    filename = FILE_PATH + "\\" + (str(wavfiles[i]))
-    file_float_duration = librosa.get_duration(filename = filename)
-    
-    x,sectionSR_start = read_audio_section(filename, 0,5)
-    x1,sectionSR_end = read_audio_section(filename, file_float_duration - 5,file_float_duration)
+    wavfiles = []
+    summationFiles = {}
 
-    SAMPLERATE = sectionSR_start
-    file_name = str(wavfiles[i])
-    key = file_name
+    FILE_PATH = file_path
 
-    start_file_name = "start_" + str(wavfiles[i])
-    end_file_name = "end_" + str(wavfiles[i])
-    
-    sf.write(start_file_name, x,SAMPLERATE)
-    sf.write(end_file_name, x1,SAMPLERATE)
+    for file in listdir(FILE_PATH):
+        if fnmatch.fnmatch(file, '*.wav'):
+            wavfiles.append(file)
 
-    y0, sr0 = librosa.load(start_file_name, sr=None)
-    y0, index0 = librosa.effects.trim(y0)
-    start_tempo, start_beat_frames = librosa.beat.beat_track(y=y0, sr=sr0)
-    start_tempo = round(start_tempo,2)
-    start_beat_times = librosa.frames_to_time(start_beat_frames, sr=sr0)
-    start_first_beat = start_beat_times[0]
-    start_individual_data.update({"bpm" : start_tempo})
-    start_individual_data.update({"firstbeat" : start_first_beat})
+    for i in range(0, len(wavfiles)):
+        individual_data = {}
+        start_individual_data = {}
+        end_individual_data = {}
+        
+        filename = FILE_PATH + "\\" + (str(wavfiles[i]))
+        file_float_duration = int(librosa.get_duration(filename = filename))
+        
+        x,sectionSR_start = read_audio_section(filename, 0,5)
+        x1,sectionSR_end = read_audio_section(filename, file_float_duration - 5,file_float_duration)
 
-    individual_data["start"] = start_individual_data
+        SAMPLERATE = sectionSR_start
+        file_name = str(wavfiles[i])
+        key = file_name
 
-    y1, sr1 = librosa.load(end_file_name, sr=None)
-    y1, index1 = librosa.effects.trim(y1)
-    end_tempo, end_beat_frames = librosa.beat.beat_track(y=y1, sr=sr1)
-    end_tempo = round(end_tempo,2)
-    end_beat_times = librosa.frames_to_time(end_beat_frames, sr=sr0)
-    end_last_beat = end_beat_times[len(end_beat_times)-1]
-    end_individual_data.update({"bpm" : end_tempo})
-    end_individual_data.update({"lastbeat" : end_last_beat})
+        start_file_name = "start_" + str(wavfiles[i])
+        end_file_name = "end_" + str(wavfiles[i])
+        
+        sf.write(start_file_name, x,SAMPLERATE)
+        sf.write(end_file_name, x1,SAMPLERATE)
 
-    individual_data["end"] = end_individual_data
+        y0, sr0 = librosa.load(start_file_name, sr=None)
+        y0, index0 = librosa.effects.trim(y0)
+        start_tempo, start_beat_frames = librosa.beat.beat_track(y=y0, sr=sr0)
+        start_tempo = round(start_tempo,2)
+        start_beat_times = librosa.frames_to_time(start_beat_frames, sr=sr0)
+        start_first_beat = start_beat_times[0]
+        start_individual_data.update({"bpm" : start_tempo})
+        start_individual_data.update({"firstbeat" : start_first_beat})
 
-    summationFiles[key] = individual_data
+        individual_data["start"] = start_individual_data
 
-    os.remove(start_file_name)
-    os.remove(end_file_name)
+        y1, sr1 = librosa.load(end_file_name, sr=None)
+        y1, index1 = librosa.effects.trim(y1)
+        end_tempo, end_beat_frames = librosa.beat.beat_track(y=y1, sr=sr1)
+        end_tempo = round(end_tempo,2)
+        end_beat_times = librosa.frames_to_time(end_beat_frames, sr=sr0)
+        #NOT WORKING
+        #end_last_beat = end_beat_times[len(end_beat_times)-1]
+        end_individual_data.update({"bpm" : end_tempo})
+        #end_individual_data.update({"lastbeat" : end_last_beat})
 
-json_object = json.dumps(summationFiles, indent=4)
+        individual_data["end"] = end_individual_data
 
-with open("sample.json", "w") as outfile:
-    outfile.write(json_object)
+        summationFiles[key] = individual_data
+
+        os.remove(start_file_name)
+        os.remove(end_file_name)
+
+        json_object = json.dumps(summationFiles, indent=4)
+
+        with open("sample.json", "w") as outfile:
+            outfile.write(json_object)
+
+    print("Success!")
+
+run_song_processing("C:\\Users\\bsliu\\Desktop\\maestro-v3.0.0\\2004")
