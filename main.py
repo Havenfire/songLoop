@@ -18,8 +18,9 @@ def read_audio_section(filename, start_time, stop_time):
     sr = track.samplerate
     start_frame = sr * start_time
     frames_to_read = sr * (stop_time - start_time)
-    track.seek(start_frame)
-    audio_section = track.read(frames_to_read)
+    track.seek(int(start_frame))
+    audio_section = track.read(int(frames_to_read))
+
     return audio_section, sr
 
 wavfiles = []
@@ -38,10 +39,10 @@ for i in range (0,1):
     end_individual_data = {}
     
     filename = FILE_PATH + "\\" + (str(wavfiles[i]))
-    file_float_duration = int(librosa.get_duration(filename = filename))
+    file_float_duration = librosa.get_duration(filename = filename)
     
     x,sectionSR_start = read_audio_section(filename, 0,5)
-    x1,sectionSR_end = read_audio_section(filename, file_float_duration - 5,file_float_duration-1)
+    x1,sectionSR_end = read_audio_section(filename, file_float_duration - 5,file_float_duration)
 
     SAMPLERATE = sectionSR_start
     file_name = str(wavfiles[i])
@@ -53,7 +54,7 @@ for i in range (0,1):
     sf.write(start_file_name, x,SAMPLERATE)
     sf.write(end_file_name, x1,SAMPLERATE)
 
-    y0, sr0 = librosa.load(start_file_name)
+    y0, sr0 = librosa.load(start_file_name, sr=None)
     y0, index0 = librosa.effects.trim(y0)
     start_tempo, start_beat_frames = librosa.beat.beat_track(y=y0, sr=sr0)
     start_tempo = round(start_tempo,2)
@@ -64,7 +65,7 @@ for i in range (0,1):
 
     individual_data["start"] = start_individual_data
 
-    y1, sr1 = librosa.load(end_file_name)
+    y1, sr1 = librosa.load(end_file_name, sr=None)
     y1, index1 = librosa.effects.trim(y1)
     end_tempo, end_beat_frames = librosa.beat.beat_track(y=y1, sr=sr1)
     end_tempo = round(end_tempo,2)
