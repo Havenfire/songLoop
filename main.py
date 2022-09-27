@@ -8,6 +8,7 @@ import fnmatch
 import soundfile as sf
 
 
+#maybe combine start/end type, and have a parameter check
 def vol_start_type(y,sr,file_name):
 
     avg_start = []
@@ -58,7 +59,7 @@ def read_audio_section(filename, start_time, stop_time):
 
     return audio_section, sr
 
-
+#maybe break down run_song_processing into many different methods
 def run_song_processing(file_path):
     
     wavfiles = []
