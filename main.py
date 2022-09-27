@@ -8,15 +8,40 @@ import fnmatch
 import soundfile as sf
 
 
-def vol_start_type(avg_s_vol_list):
+def vol_start_type(y,sr,file_name):
 
+    avg_start = []
+    for s in range(0,len(y),sr):
+        avg_start.append( np.abs(y[s:s+sr]).mean())
 
-    return 1
+    timeList = []
+    for i in range(0, len(avg_start)):
+        timeList.append(i)
+    
+    plt.bar(timeList, avg_start, color ='maroon',
+        width = 0.4)
+ 
+    plt.xlabel("Time")
+    plt.ylabel("Volume")
+    plt.title(file_name + " Start Direction")
+    plt.show()
 
-def vol_end_type(avg_e_vol_list):
+def vol_end_type(y,sr,file_name):
+    avg_end = []
+    for s in range(0,len(y),sr):
+        avg_end.append( np.abs(y[s:s+sr]).mean())
 
-
-    return 2
+    timeList = []
+    for i in range(0, len(avg_end)):
+        timeList.append(i)
+    
+    plt.bar(timeList, avg_end, color ='maroon',
+        width = 0.4)
+ 
+    plt.xlabel("Time")
+    plt.ylabel("Volume")
+    plt.title(file_name + " End Direction")
+    plt.show()
 
 def read_audio_section(filename, start_time, stop_time):
     track = sf.SoundFile(filename)
@@ -87,6 +112,10 @@ def run_song_processing(file_path):
         end_individual_data.update({"bpm" : end_tempo})
         #end_individual_data.update({"lastbeat" : end_last_beat})
 
+        vol_start_type(y0,sr0,str(wavfiles[i]))
+        vol_end_type(y1,sr1,str(wavfiles[i]))
+
+
         individual_data["end"] = end_individual_data
 
         summationFiles[key] = individual_data
@@ -99,6 +128,9 @@ def run_song_processing(file_path):
         with open("sample.json", "w") as outfile:
             outfile.write(json_object)
 
+
+
     print("Success!")
 
-run_song_processing("C:\\Users\\bsliu\\Desktop\\maestro-v3.0.0\\2004")
+#run_song_processing("C:\\Users\\bsliu\\Desktop\\maestro-v3.0.0\\2004")
+run_song_processing("C:\\Users\\bsliu\\Desktop\\Song Data")
