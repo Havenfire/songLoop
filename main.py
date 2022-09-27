@@ -31,9 +31,8 @@ for file in listdir(FILE_PATH):
     if fnmatch.fnmatch(file, '*.wav'):
         wavfiles.append(file)
 
-for i in range(0, len(wavfiles)):
-
-#for i in range(0,1):
+#for i in range(0, len(wavfiles)):
+for i in range (0,1):
     individual_data = {}
     start_individual_data = {}
     end_individual_data = {}
