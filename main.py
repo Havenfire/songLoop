@@ -59,13 +59,19 @@ def read_audio_section(filename, start_time, stop_time):
 
     return audio_section, sr
 
+def single_song_processing(full_path, songname):
+
+    return
+
+
 #maybe break down run_song_processing into many different methods
-def run_song_processing(file_path):
+def many_song_processing(file_path):
     
+    FILE_PATH = file_path
+
     wavfiles = []
     summationFiles = {}
 
-    FILE_PATH = file_path
 
     for file in listdir(FILE_PATH):
         if fnmatch.fnmatch(file, '*.wav'):
@@ -79,8 +85,8 @@ def run_song_processing(file_path):
         filename = FILE_PATH + "\\" + (str(wavfiles[i]))
         file_float_duration = int(librosa.get_duration(filename = filename))
         
-        x,sectionSR_start = read_audio_section(filename, 0,5)
-        x1,sectionSR_end = read_audio_section(filename, file_float_duration - 5,file_float_duration)
+        x,sectionSR_start = read_audio_section(filename, 0,8)
+        x1,sectionSR_end = read_audio_section(filename, file_float_duration - 8,file_float_duration)
 
         SAMPLERATE = sectionSR_start
         file_name = str(wavfiles[i])
@@ -133,5 +139,6 @@ def run_song_processing(file_path):
 
     print("Success!")
 
-#run_song_processing("C:\\Users\\bsliu\\Desktop\\maestro-v3.0.0\\2004")
-run_song_processing("C:\\Users\\bsliu\\Desktop\\Song Data")
+many_song_processing("C:\\Users\\bsliu\\Desktop\\maestro-v3.0.0\\2004")
+many_song_processing("C:\\Users\\bsliu\\Desktop\\Song Data")
+single_song_processing("C:\\Users\\bsliu\\Desktop\\Song Data\\Cordae - RNP (feat. Anderson .Paak) [Official Lyric Video].wav", "RNP")
